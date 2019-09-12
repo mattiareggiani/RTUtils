@@ -60,7 +60,7 @@ For searching by keyword: SharpFind.exe keyword {directory} {keyword} {extension
 ```
 ### Example
 ```
-C:\>.\SharpWinLogin.exe “locked,angela” “locked,angela1234,test” 0
+C:\>.\SharpWinLogin.exe “locked,angela” “locked,angela1990,test” 0
 User locked is disabled
 [+] Found credentials angela:angela1990
 
