@@ -20,7 +20,6 @@ C:\>.\Loader.exe audit
 [*] Audit mode: running all checks anyway.
 ```
 
-### Example
 
 ## SharpFind
 
