@@ -2,6 +2,26 @@
 
 Repository of random tool / script used during RT / PT
 
+## AssemblyLoader
+
+C# .NET Program to serialize a .NET program into a base64 string encrypted that then will be loaded in memory, allowing to specify arguments, in order to bypass the signature-based detection of AVs
+
+### Example
+
+```
+C:\>.\Serializer.exe SharpUp.exe
+Copy the content of serialised.txt into the variable "assembly" of Loader
+C:\>.\Loader.exe audit
+
+=== SharpUp: Running Privilege Escalation Checks ===
+
+[*] In medium integrity but user is a local administrator- UAC can be bypassed.
+
+[*] Audit mode: running all checks anyway.
+```
+
+### Example
+
 ## SharpFind
 
 C# .NET for finding file name and keyword
