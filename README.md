@@ -2,6 +2,40 @@
 
 Repository of random tool / script used during RT / PT
 
+## SharpOutlook
+
+C# .NET Program to list, read and delete emails through Outlook
+
+### Example
+
+```
+SharpOutlook.exe -a list -f "[Unread] = True"
+
+ID:             00000000900E6692258C7949975EBE7BFB017AEF07006297EEE9A65EA44D9C1C8DC1A755F24200000000000E00006297EEE9A65EA44D9C1C8DC1A755F24200000000040C0000
+From:           website@evilcorp.local
+To:             Elliot
+CC:
+Subject:        Help request from - Test
+
+
+SharpOutlook.exe -a read -i 00000000900E6692258C7949975EBE7BFB017AEF07006297EEE9A65EA44D9C1C8DC1A755F24200000000000E00006297EEE9A65EA44D9C1C8DC1A755F24200000000040C0000
+
+ID:             00000000900E6692258C7949975EBE7BFB017AEF07006297EEE9A65EA44D9C1C8DC1A755F24200000000000E00006297EEE9A65EA44D9C1C8DC1A755F24200000000040C0000
+From:           website@evilcorp.local
+To:             Elliot
+CC:
+Subject:        Help request from - Test
+Body:
+This is a test
+
+
+SharpOutlook.exe -a delete -i 00000000900E6692258C7949975EBE7BFB017AEF07006297EEE9A65EA44D9C1C8DC1A755F24200000000000E00006297EEE9A65EA44D9C1C8DC1A755F24200000000040C0000
+
+Deleted
+```
+
+
+
 ## AssemblyLoader
 
 C# .NET Program to serialize a .NET program into a base64 string encrypted that then will be loaded in memory, allowing to specify arguments, in order to bypass the signature-based detection of AVs
